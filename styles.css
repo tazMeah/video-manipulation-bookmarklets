@@ -1,0 +1,24 @@
+div {
+    width: 100px;
+    margin: 40px auto 300px;
+    display: flex;
+    justify-content: space-between;
+}
+i.fa-undo {
+    transform: scaleX(-1);
+}
+
+div i {
+    cursor: pointer;
+    transition: 500ms;
+}
+
+div i:hover {
+    transition: 500ms;
+    color: purple;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+
